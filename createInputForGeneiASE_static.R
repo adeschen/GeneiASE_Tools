@@ -4,17 +4,17 @@ library("optparse")
 
 ## Arguments parsing
 option_list = list(
-    make_option(c("-f", "--file"), type="character", action="store_true", default=NULL, 
+    make_option(c("-f", "--file"), type="character", action="store", default=NULL, 
                 help="Filtered SNPs file (output of GATK VariantFilter)", metavar="character"),
-    make_option(c("-v", "--vep"), type="character", action="store_true", default=NULL, 
+    make_option(c("-v", "--vep"), type="character", action="store", default=NULL, 
                 help="Vep annotated file", metavar="character"),
-    make_option(c("-m", "--matrix"), type="character", action="store_true", default=NULL, 
+    make_option(c("-m", "--matrix"), type="character", action="store", default=NULL, 
                 help="Depth of alignment file", metavar="character"),
-    make_option(c("-n", "--nomatrix"), type="character", action="store_true", default=NULL, 
+    make_option(c("-n", "--nomatrix"), type="character", action="store", default=NULL, 
                 help="Rejected depth of alignment file for specific filter", metavar="character"),
-    make_option(c("-d", "--depth"), type="integer", action="store_true", default=10, 
+    make_option(c("-d", "--depth"), type="integer", action="store", default=10, 
                 help="Minimum depth of alignment (reference + alternative allele)", metavar="number"),
-    make_option(c("-o", "--out"), type="character", action="store_true", default="out.txt", 
+    make_option(c("-o", "--out"), type="character", action="store", default="out.txt", 
                 help="output file name [default= %default]", metavar="character")
 ); 
 
