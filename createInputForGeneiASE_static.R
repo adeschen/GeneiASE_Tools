@@ -5,9 +5,9 @@ library("optparse")
 ## Arguments parsing
 option_list = list(
     make_option(c("-f", "--file"), type="character", action="store_true", default=NULL, 
-                help="Filtered SNPs file name", metavar="character"),
+                help="Filtered SNPs file (output of GATK VariantFilter)", metavar="character"),
     make_option(c("-v", "--vep"), type="character", action="store_true", default=NULL, 
-                help="Vep annotated file name", metavar="character"),
+                help="Vep annotated file", metavar="character"),
     make_option(c("-m", "--matrix"), type="character", action="store_true", default=NULL, 
                 help="Depth of alignment file", metavar="character"),
     make_option(c("-n", "--nomatrix"), type="character", action="store_true", default=NULL, 
