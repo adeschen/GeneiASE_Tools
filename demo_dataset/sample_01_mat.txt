@@ -1,0 +1,7 @@
+Chromosome	Position	A	C	G	T	Other	N
+chr2	469413	0	1	0	4	0	0
+chr2	627436	0	0	86	0	14	0
+chr2	691661	2	16	0	0	0	0
+chr2	691669	0	2	2	0	0	0
+chr2	691678	31	0	37	0	0	0
+chr2	974618	96	1	0	1	12	0

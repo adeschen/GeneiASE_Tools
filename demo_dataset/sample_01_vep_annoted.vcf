@@ -1,0 +1,30 @@
+## ENSEMBL VARIANT EFFECT PREDICTOR v90.5
+## Column descriptions:
+## Uploaded_variation : Identifier of uploaded variant
+## Location : Location of variant in standard coordinate format (chr:start or chr:start-end)
+## Allele : The variant allele used to calculate the consequence
+## Gene : Stable ID of affected gene
+## Feature : Stable ID of feature
+## Feature_type : Type of feature - Transcript, RegulatoryFeature or MotifFeature
+## Consequence : Consequence type
+## cDNA_position : Relative position of base pair in cDNA sequence
+## CDS_position : Relative position of base pair in coding sequence
+## Protein_position : Relative position of amino acid in protein
+## Amino_acids : Reference and variant amino acids
+## Codons : Reference and variant codon sequence
+## Existing_variation : Identifier(s) of co-located known variants
+## Extra column keys:
+## IMPACT : Subjective impact classification of consequence type
+## SYMBOL : Gene symbol (e.g. HGNC)
+## SYMBOL_SOURCE : Source of gene symbol
+## BIOTYPE : Biotype of transcript or regulatory feature
+#Uploaded_variation	Location	Allele	Gene	Feature	Feature_type	Consequence	cDNA_position	CDS_position	Protein_position	Amino_acids	Codons	Existing_variation	Extra
+.	chr2:469413	T	ENSMUSG00000098104	ENSMUST00000182774	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;SYMBOL=Gm6085;SYMBOL_SOURCE=MGI;BIOTYPE=processed_pseudogene
+.	chr2:469413	T	ENSMUSG00000102175	ENSMUST00000193443	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;SYMBOL=Gm6119;SYMBOL_SOURCE=MGI;BIOTYPE=processed_pseudogene
+.	chr2:627436-627437	T	ENSMUSG00000025907	ENSMUST00000027040	Transcript	3_prime_UTR_variant	5323-5324	-	-	-	-	-	IMPACT=MODIFIER;SYMBOL=Rb1cc1;SYMBOL_SOURCE=MGI;BIOTYPE=protein_coding
+.	chr2:691661	A	ENSMUSG00000102135	ENSMUST00000194605	Transcript	non_coding_transcript_exon_variant	60	-	-	-	-	-	IMPACT=MODIFIER;SYMBOL=Gm37108;SYMBOL_SOURCE=MGI;BIOTYPE=processed_pseudogene
+.	chr2:691661	A	-	ENSMUSR00000293585	RegulatoryFeature	regulatory_region_variant	-	-	-	-	-	-	IMPACT=MODIFIER;BIOTYPE=promoter
+.	chr2:691669	C	ENSMUSG00000102135	ENSMUST00000194605	Transcript	non_coding_transcript_exon_variant	91	-	-	-	-	-	IMPACT=MODIFIER;SYMBOL=Gm37108;SYMBOL_SOURCE=MGI;BIOTYPE=processed_pseudogene
+.	chr2:691669	C	-	ENSMUSR00000293585	RegulatoryFeature	regulatory_region_variant	-	-	-	-	-	-	IMPACT=MODIFIER;BIOTYPE=promoter
+.	chr2:691678	A	ENSMUSG00000102135	ENSMUST00000194605	Transcript	intron_variant	-	-	-	-	-	-	IMPACT=MODIFIER;SYMBOL=Sntg1;SYMBOL_SOURCE=MGI;BIOTYPE=protein_coding
+.	chr2:974618-974619	T	ENSMUSG00000045210	ENSMUST00000057438	Transcript	frameshift_variant	2199-2200	1973-1974	658	N/KX	aat/aaAt	-	IMPACT=HIGH;SYMBOL=Vcpip1;SYMBOL_SOURCE=MGI;BIOTYPE=protein_coding

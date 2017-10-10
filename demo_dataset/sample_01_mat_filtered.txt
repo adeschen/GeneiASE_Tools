@@ -1,0 +1,7 @@
+Chromosome	Position	A	C	G	T
+chr2	469413	0	0	0	0
+chr2	627436	0	0	0	0
+chr2	691661	0	8	0	0
+chr2	691669	0	0	1	0
+chr2	691678	1	0	10	0
+chr2	974618	0	0	0	0

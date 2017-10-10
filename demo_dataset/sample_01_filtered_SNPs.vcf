@@ -1,0 +1,20 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths for the ref and alt alleles in the order listed">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth (reads with MQ=255 or with bad mates are filtered)">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="Normalized, Phred-scaled likelihoods for genotypes as defined in the VCF specification">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Allele count in genotypes, for each ALT allele, in the same order as listed">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency, for each ALT allele, in the same order as listed">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth; some reads may have been filtered">
+##INFO=<ID=FS,Number=1,Type=Float,Description="Phred-scaled p-value using Fisher's exact test to detect strand bias">
+##INFO=<ID=QD,Number=1,Type=Float,Description="Variant Confidence/Quality by Depth">
+##contig=<ID=chr2,length=182113224>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	P2
+chr2	469413	.	C	T	71.03	PASS	AC=2;AF=1.00;DP=5;FS=0.000;QD=17.76	GT:AD:DP:GQ:PL	1/1:0,4:4:12:99,12,0
+chr2	627436	.	G	GT	24.77	PASS	AC=1;AF=0.500;DP=79;FS=3.433;QD=0.28	GT:AD:DP:GQ:PL	0/1:62,12:74:58:58,0,1557
+chr2	691661	.	C	A	21.77	PASS	AC=2;AF=1.00;DP=2;FS=0.000;QD=10.88	GT:AD:DP:GQ:PL	1/1:0,2:2:6:49,6,0
+chr2	691669	.	G	C	29.77	PASS	AC=2;AF=1.00;DP=2;FS=0.000;QD=10.88	GT:AD:DP:GQ:PL	1/1:0,2:2:6:49,6,0
+chr2	691678	.	G	A	595.74	PASS	AC=1;AF=0.500;DP=29;FS=2.738;QD=22.06	GT:AD:DP:GQ:PL	0/1:3,24:27:6:623,0,6
+chr2	974618	.	A	AT	37.73	PASS	AC=1;AF=0.500;DP=89;FS=19.336;QD=0.39	GT:AD:DP:GQ:PL	0/1:65,13:78:68:68,0,1617
+
